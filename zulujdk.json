@@ -1,0 +1,17 @@
+{
+    "homepage": "https://www.azul.com/products/zulu-and-zulu-enterprise/",
+    "version": "9.0.4.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.azul.com/zulu/bin/zulu9.0.4.1-jdk9.0.4-win_x64.zip",
+            "hash": "md5:5fb1e9343948e1b1f6ee92e40ecc5c2a"
+        }
+    },
+    "extract_dir": "zulu9.0.4.1-jdk9.0.4-win_x64",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir",
+        "JRE_HOME": "$dir"
+    },
+    "license": "https://www.azul.com/products/zulu-and-zulu-enterprise/zulu-terms-of-use/"
+}
