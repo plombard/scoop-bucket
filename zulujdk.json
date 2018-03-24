@@ -1,13 +1,13 @@
 {
     "homepage": "https://www.azul.com/products/zulu-and-zulu-enterprise/",
-    "version": "9.0.4.1",
+    "version": "10.1.11",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.azul.com/zulu/bin/zulu9.0.4.1-jdk9.0.4-win_x64.zip",
-            "hash": "md5:5fb1e9343948e1b1f6ee92e40ecc5c2a"
+            "url": "https://cdn.azul.com/zulu/bin/zulu10.1+11-jdk10-win_x64.zip",
+            "hash": "md5:abac1de9c1e86f40bb412b438c2adb66"
         }
     },
-    "extract_dir": "zulu9.0.4.1-jdk9.0.4-win_x64",
+    "extract_dir": "zulu10.1+11-jdk10-win_x64",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir",
